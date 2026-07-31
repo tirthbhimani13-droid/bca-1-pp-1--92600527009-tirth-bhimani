@@ -1,0 +1,20 @@
+//wap which display sum of two number
+//tirth bhimnani
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int x,y,z;   //veriadle declaration
+	clrscr();
+	printf("\n enter vlaue of x;");
+	scanf("%d" ,&x);
+
+	y=x*x;
+	printf("\n square is :%d",y);
+
+	z=x*y;
+	printf("\n cube is %d",z);
+
+	getch();
+}
