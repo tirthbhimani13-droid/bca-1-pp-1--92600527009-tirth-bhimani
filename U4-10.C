@@ -15,13 +15,14 @@ void main()
 	{
 		printf("\n enter number %d:",i);
 		scanf("%f",&num);
-		total+= num;
+		total=total+ num;
 	}
 
 		printf("\n total value = %.2f\n",total);
 
 
 		getch();
+
 
 
 }
